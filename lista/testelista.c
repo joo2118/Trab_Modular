@@ -355,7 +355,7 @@ List *lst = NULL;
 			{
 				return TST_CondRetParm ;
 			} /* if */
-			return TST_CompararInt(CondRetEsperada,	LIS_Deturpar(lst, IntEsperado) ,	"Retorno incorreto ao deturpar lista.");
+			return TST_CompararInt(CondRetEsperada,	Deturpador(lst, IntEsperado) ,	"Retorno incorreto ao deturpar lista.");
 
 		} /* fim ativa: Deturpar uma lista */
 
